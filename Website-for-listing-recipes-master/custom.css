@@ -1,0 +1,102 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Utilty Classes*/
+
+
+.img-responsive {
+	height: 15rem;
+	border-radius: var(--borderRadius);
+	margin-bottom: 1rem;
+}
+
+.hero_image {
+	background: url(Nayak’S\ kitchen2.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.hero_wrapper {
+	color:rgb(9, 0, 0);
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hero_wrapper h1 {
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+
+.hero_wrapper span {
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #015259;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+
+/*  Product Section */
+
+.product {
+	
+	width: auto;  
+    text-align: center;  
+	padding: 15px; 
+	height:auto; 
+}
+.product_heading{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: bold;
+}
+
+.product__list__item {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+}
+
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+	.product__list__item { 
+		width: 100%;
+		float: none;
+	}
+}
